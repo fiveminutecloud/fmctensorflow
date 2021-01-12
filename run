@@ -1,0 +1,2 @@
+docker run -d -v $(pwd)/notebooks:/notebooks --name fmctensorflow -p 8888:8888 -p 5000:5000 fmctensorflow:latest
+docker logs -f fmctensorflow
